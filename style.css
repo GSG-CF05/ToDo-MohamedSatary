@@ -1,0 +1,126 @@
+:root {
+    --body-color: #EEEEEE;
+    --card-bg: #f0f2fa;
+    --heading-color: #1e202a;
+    --text-color: #63687e;
+  }
+  
+  .dark {
+    --body-color: #1f212e;
+    --card-bg: #252a41;
+    --heading-color: #8b97c6;
+    --text-color: #fff;
+  }
+  body {
+    background-color: var(--body-color);
+    font-family: 'Readex Pro', sans-serif;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .fa-moon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--heading-color);
+    transform: rotate(-25deg);
+  }
+  -----------------
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  h1 {
+  color: lime;
+  font-size: 3rem;
+  font-weight: 50;
+  text-align: center;
+  margin: 1rem 0 3rem; 
+  font-family: 'Readex Pro', sans-serif;
+  }
+  
+  
+  
+  .inputDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    background-color: #ffffff;
+  }
+  
+  .add{
+  outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+  }
+  
+  .add:hover{
+  opacity: 0.7;
+  }
+  
+  .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  }
+  
+  .item{
+  padding: 0.5rem;
+  border-bottom: 4px solid rgb(71, 71, 71);
+  margin-bottom: 1.5rem;
+  }
+  
+  .item_input{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(0, 245, 0);
+  font-size: 1.4rem;
+  width: 245px;
+  }
+  
+  .edit{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(255, 187, 0);
+  font-size: 1rem;
+  font-family: 'Readex Pro', sans-serif;
+  margin: 0 0.2rem;
+  cursor: pointer;
+  }
+  
+  .remove{
+  background: none;
+  outline: none;
+  border: none;
+  color: #E00;
+  font-size: 1rem;
+  font-family: 'Readex Pro', sans-serif;
+  cursor: pointer;
+  }
